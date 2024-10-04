@@ -1,0 +1,9 @@
+
+  name: assignment
+  on: push
+  jobs:
+     my-job:
+        runs-on: ubuntu-latest
+        steps:
+          - name: my-step
+            run: echo "kuppusamy_2118l06 Welcome You!"
